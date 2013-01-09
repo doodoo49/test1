@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+#containLog a{ text-decoration:none; color: #1187fe;}
+#containLog .clear{ clear:both;}
+#containLog input:focus{ background-color: #a4f5fc;}
+#containLog img{ border:none;}
+
+#containLog{ max-width:736px; /*max-width:950px;*/ margin:0 auto; font-size:12px; color:#333333;}
+.leftSide .borBtm{height: 304px;}
+.borBG{ width:356px; background:url(../images/new-login/bor-bg.gif) repeat-y;}
+.borTop{ background:url(../images/new-login/bor-top.gif) top left no-repeat;}
+.borBtm{ background:url(../images/new-login/bor-btm.gif) bottom left no-repeat;}
+.areaLog{ padding:5px 3px 25px 3px;}
+.titleMember{ margin:0px auto; padding:0; width:100%; height:36px; background:url(../images/new-login/title-member.gif) no-repeat 10px 50%; border-bottom:1px solid #e5e5e5; text-indent:-999px; overflow:hidden;}
+#btnFB{ width:194px; height:25px; display:block; background:url(../images/new-login/btn-fb.png); margin:18px auto 18px auto;}
+.or{ background:url(../images/new-login/line.gif) repeat-x center left;}
+.or span{ display:block; background-color:#FFFFFF; width:50px; text-align:center; margin:0 auto 0 auto;}
+.wrapInput{ width:247px; margin:5px auto 0 auto; /*border:1px solid red;*/}
+.wrapInput span{ display:block; width:49px; float:left; text-align:right; }
+.wrapInput input, #forgotPass,#remember{ float:left; margin-left:10px; width:180px; }
+#chkRemem{ width:20px; margin:0 0 0 -5px; padding:0;}
+.wrapBtnLog{ width:160px; margin:0 auto 0 auto;}
+.wrapBtnLog input{ float:left;}
+.wrapBtnLog a{ float:right; display:block; width:67px; padding-top:10px;}
+.spaceChkBox{ margin-top:15px;}
+.spaceBtnLog{ margin-top:8px;}
+.spaceEmail{ margin-top:15px;}
+.spaceNoBuy{ margin-top: 55px;}
+.leftSide{ float:left;}
+.rightSide{ float:right; position:relative; }
+.rightSide .borBtm{height: 304px;}
+.titleNoneMem{ background:url(../images/new-login/title-none-member.png) no-repeat 10px 50%; float:left;}
+.whatisNone{ position:absolute; top:19px; left:183px;}
+#btnChkSta{ display: block; margin: 10px auto 0 auto;}
+.inputEmailforNone, .spaceNoBuy{ /*border: 1px solid red;*/ width: 300px;}
+.inputEmailforNone span, .spaceNoBuy span{ width: 100px;}
+.inputEmailforNone input, .spaceNoBuy input{ width: 150px;}
+#buyNoneMember{ margin-top: 60px;}
+#buyNoneMember p{ margin: 0; padding: 0; text-align: center;}
+#buyNoneMember #btnBuyNoneMem{ display:block; background: url(../images/new-login/btn-buy-none-member.png); width: 165px; height: 30px; text-indent: -999px; overflow: hidden; margin: 0 auto 0 auto;}
+#buyNoneMember #linkCheckOrder{ display:block; text-align: center;}
+#buyNoneMember *{ margin-top:10px !important;}
+
+#containLog #promote{ width:581px; height:388px;  float:left;}
